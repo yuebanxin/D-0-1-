@@ -87,7 +87,7 @@ def sort_data():
     sorted_details = []
     for new_idx, (old_idx, _) in enumerate(sorted_with_info):
         detail = sort_details[old_idx]
-        detail["sorted_order"] = new_idx + 1  # 排序后的顺序（从1开始）
+        detail["sorted_order"] = new_idx + 1  # 排序后的顺序
         sorted_details.append(detail)
 
     sort_details = sorted_details
