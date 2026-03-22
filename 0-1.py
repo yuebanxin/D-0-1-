@@ -120,7 +120,7 @@ def dp_solve():
                 tmp[j] = max(tmp[j], dp[j - w3] + v3)
 
         dp = tmp
-        dp_history.append(dp.copy())  # 保存当前组处理后的状态
+        dp_history.append(dp.copy())  
 
     best_value = dp[capacity]
     solve_time = round(time.time() - start, 4)
