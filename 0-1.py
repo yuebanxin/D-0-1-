@@ -163,7 +163,7 @@ def draw_group_scatter(group_num):
         ax.set_xlim(0, max(weights) + 1)
         ax.set_ylim(0, max(values) + 1)
 
-        # 保存到内存（避免文件IO）
+        # 保存到内存
         img_buffer = io.BytesIO()
         plt.tight_layout()
         plt.savefig(img_buffer, format='png', dpi=120, bbox_inches='tight')
