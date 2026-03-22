@@ -207,7 +207,7 @@ def draw_all_scatter():
         return False
 
 
-# 主页面（含任意组散点图功能）
+# 主页面
 @app.route('/')
 def index():
     return '''
