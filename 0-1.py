@@ -19,7 +19,6 @@ capacity = 0
 best_value = 0
 solve_time = 0
 dp_history = []
-# 新增：存储排序结果详情
 sort_details = []
 
 # 配置中文显示
