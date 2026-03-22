@@ -55,7 +55,7 @@ def read_data(file_path):
         return False
 
 
-# 按第三项价值/重量比降序排序（改造：返回排序详情）
+# 按第三项价值/重量比降序排序
 def sort_data():
     global groups, sort_details
     sort_details = []  # 清空历史排序详情
