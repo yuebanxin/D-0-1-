@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, send_file, render_template_string, Response  # 新增Response导入
+from flask import Flask, request, jsonify, send_file, render_template_string, Response  
 import matplotlib
 
 matplotlib.use("Agg")
